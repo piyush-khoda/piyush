@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= device-width>, initial-scale=1.0">
+    <title>IPL POINT TABLE</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <style>
+
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .header_fixed {
+            height: 500px;
+            overflow: auto;
+            margin-top: 60px;
+            border: 1px solid #dddddd;
+        }
+
+        .header_fixed thead th {
+            position: sticky;
+            top: 0;
+            background-color: black;
+            color: red;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        th,
+        td {
+            border-bottom: 1px solid #dddddd;
+            padding: 10px 20px;
+            font-size: 25px;
+            color: white;
+        }
+
+        td img {
+            height: 40px;
+            width: 60px;
+            border-radius: 25%;
+            border: 2px solid #e6e7e8;
+        }
+
+        tr:nth-child(1) {
+
+            background-color: blue;
+        }
+
+        tr:nth-child(2) {
+
+            background-color: green;
+        }
+
+        tr:nth-child(3) {
+
+            background-color: red;
+        }
+
+        tr:nth-child(4) {
+
+            background-color: black;
+        }
+
+        tr:nth-child(5) {
+
+            background-color: rgb(21, 21, 83);
+        }
+
+        tr:nth-child(6) {
+
+            background-color: rgb(133, 31, 31);
+        }
+
+        tr:nth-child(7) {
+
+            background-color: rgb(216, 7, 164);
+        }
+
+        tr:nth-child(8) {
+
+            background-color: rgb(221, 99, 17);
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)
+        }
+
+        ::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3)
+        }
+    </style>
+    <main>
+        <div class="header_fixed">
+            <table>
+                <thead>
+                    <tr>
+                        <th>TEAM LOGO</th>
+                        <th> TEAMS </th>
+                        <th> PLAYED </th>
+                        <th> WINS </th>
+                        <th> LOSS </th>
+                        <th> NR </th>
+                        <th> POINTS </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="dilhi.jpg"></td>
+                        <td> DILHI CAPITALS </td>
+                        <td> 14 </td>
+                        <td> 10 </td>
+                        <td> 4 </td>
+                        <td> +0.481 </td>
+                        <td> 20 </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><img src="chennai.jpg"></td>
+                        <td> CHENNAI SUPER KINGS </td>
+                        <td> 14 </td>
+                        <td> 9 </td>
+                        <td> 5 </td>
+                        <td> +0.455 </td>
+                        <td> 18 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="banglore.jpg"></td>
+                        <td> ROYAL CHALLENGERS BANGALORE </td>
+                        <td> 14 </td>
+                        <td> 9 </td>
+                        <td> 5 </td>
+                        <td> +0.223 </td>
+                        <td> 18 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="kolkatta.jpg"></td>
+                        <td> KOLKATTA KNIGHT RIDERS </td>
+                        <td> 14 </td>
+                        <td> 7 </td>
+                        <td> 7 </td>
+                        <td> +0.016 </td>
+                        <td> 14 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="mumbai.jpg"></td>
+                        <td> MUMBAI INDIANS </td>
+                        <td> 14 </td>
+                        <td> 7 </td>
+                        <td> 7 </td>
+                        <td> -0.112 </td>
+                        <td> 14 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="panjab.jpg"></td>
+                        <td> PANJAB KINGS </td>
+                        <td> 14 </td>
+                        <td> 6 </td>
+                        <td> 8 </td>
+                        <td> -0.001 </td>
+                        <td> 12 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="rajsthan.jpg"></td>
+                        <td> RAJESTHAN ROYALS </td>
+                        <td> 14 </td>
+                        <td> 5 </td>
+                        <td> 9 </td>
+                        <td> -0.230 </td>
+                        <td> 10 </td>
+                    </tr>
+                    <tr>
+                        <td><img src="haydrabad.jpg"></td>
+                        <td> SUNRISERS HYDERABAD </td>
+                        <td> 14 </td>
+                        <td> 3 </td>
+                        <td> 11 </td>
+                        <td> -0.400 </td>
+                        <td> 6 </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
